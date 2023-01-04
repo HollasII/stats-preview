@@ -20,6 +20,9 @@ body{
     background: map-get($colors, cback );
     margin: 20px;
     color: white;
+    height: 446px;
+    border-radius: 15px;
+
     
 
     .text-sect{
@@ -91,10 +94,22 @@ body{
       }
     }
 
-    // .img-sect{
-    //   img{
-    //     color: map-get($colors, acc );
-    //   }
-    // }
+    .img-sect{
+      width: 550px;
+      height: 446px;
+      background-color: map-get($colors, acc);
+      border-radius: 0 15px 15px 0;
+
+
+      img{
+        border-radius: 0 15px 15px 0;
+        opacity: 0.5;
+        // background-color: map-get($colors, acc);
+      }
+    }
+  }
+
+  .attribution{
+    color: white;
   }
 }

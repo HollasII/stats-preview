@@ -17,6 +17,8 @@ body main {
   background: hsl(244deg, 38%, 16%);
   margin: 20px;
   color: white;
+  height: 446px;
+  border-radius: 15px;
 }
 body main .text-sect {
   font-family: "Lexend Deca", sans-serif;
@@ -70,4 +72,17 @@ body main .text-sect .things p span {
   text-transform: uppercase;
   color: hsla(0deg, 0%, 100%, 0.75);
   font-weight: 400;
+}
+body main .img-sect {
+  width: 550px;
+  height: 446px;
+  background-color: hsl(277deg, 64%, 61%);
+  border-radius: 0 15px 15px 0;
+}
+body main .img-sect img {
+  border-radius: 0 15px 15px 0;
+  opacity: 0.5;
+}
+body .attribution {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
