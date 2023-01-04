@@ -21,39 +21,53 @@ body main {
 body main .text-sect {
   font-family: "Lexend Deca", sans-serif;
   font-size: 20px;
+  font-weight: 400;
   text-aling: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
   padding: 15px;
-  margin: 0 20px;
-  border: 1px solid red;
 }
-body main .text-sect h1 {
+body main .text-sect .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+body main .text-sect .top h1 {
   color: hsl(0deg, 0%, 100%);
+  text-align: left;
+  font-size: 33px;
+  padding: 0 25px;
 }
-body main .text-sect h1 span {
+body main .text-sect .top h1 span {
   color: hsl(277deg, 64%, 61%);
 }
-body main .text-sect p {
-  color: hsla(0deg, 0%, 100%, 0.75);
+body main .text-sect .top p {
+  color: hsla(0deg, 0%, 100%, 0.6);
+  text-align: left;
+  font-size: 20px;
+  padding: 0 25px;
 }
 body main .text-sect .things {
-  border: 1px solid red;
+  width: 100%;
   display: flex;
   align-content: center;
-  justify-content: space-between;
-  padding: 12px;
+  justify-content: space-evenly;
 }
 body main .text-sect .things p {
   font-family: "Lexend Deca", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
   color: hsl(0deg, 0%, 100%);
-  margin: 15px;
-  border: 1px solid yellow;
 }
 body main .text-sect .things p span {
-  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
   color: hsla(0deg, 0%, 100%, 0.75);
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

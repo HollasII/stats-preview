@@ -25,23 +25,29 @@ body{
     .text-sect{
       font-family: map-get($fonts , lex);
       font-size: 20px;
+      font-weight: 400;
       text-aling: center;
       display: flex;
       // grid-template-columns: 3, 1fr;
       flex-direction: column;
-      gap: 10px;
+      gap: 20px;
       align-items: center;
       justify-content: center;
       padding: 15px;
-      // font-size: 45px;
-      // padding: 0 25px;
-      margin: 0 20px;
-      border: 1px solid red;
+      // border: 1px solid red;
+
+     .top{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
 
       h1{
         color: map-get($colors, mhead );
-        // font-size: 45px;
-        // // padding: 0 25px;
+        text-align: left;
+        font-size: 33px;
+        padding: 0 25px;
         // margin: 0 20px;
 
         span{
@@ -51,26 +57,35 @@ body{
       
 
       p{
-        color: map-get($colors, parag );
+        color: map-get($colors, shead );
+        text-align: left;
+        font-size: 20px;
+        padding: 0 25px;
       }
+     }
 
       .things{
-        border: 1px solid red;
+        // border: 1px solid red;
+        width: 100%;
         display: flex;
         align-content: center;
-        justify-content: space-between;
-        padding: 12px;
+        justify-content: space-evenly;
+        // padding: 12px;
 
         p{
           font-family: map-get($fonts , lex);
+          font-size: 25px;
+          font-weight: 700;
           color: map-get($colors, mhead );
-          margin: 15px;
-          border: 1px solid yellow;
+          // margin: 2px 18px;
+          // border: 1px solid yellow;
 
           span{
-            font-family: map-get($fonts , int);
-
+            font-family: map-get($fonts , lex);
+            font-size: 15px;
+            text-transform: uppercase;
             color: map-get($colors, parag );
+            font-weight: 400;
           }
         }
       }
