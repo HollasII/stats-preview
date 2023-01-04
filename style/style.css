@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(233deg, 47%, 7%);
+  padding: 5%;
+  height: 100vh;
+  width: 100vw;
+}
+body main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(244deg, 38%, 16%);
+  margin: 20px;
+  color: white;
+}
+body main .text-sect {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  text-aling: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  margin: 0 20px;
+  border: 1px solid red;
+}
+body main .text-sect h1 {
+  color: hsl(0deg, 0%, 100%);
+}
+body main .text-sect h1 span {
+  color: hsl(277deg, 64%, 61%);
+}
+body main .text-sect p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+body main .text-sect .things {
+  border: 1px solid red;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+body main .text-sect .things p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsl(0deg, 0%, 100%);
+  margin: 15px;
+  border: 1px solid yellow;
+}
+body main .text-sect .things p span {
+  font-family: "Inter", sans-serif;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}/*# sourceMappingURL=style.css.map */

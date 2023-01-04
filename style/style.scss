@@ -1,0 +1,85 @@
+@import 'variables';
+@import 'mixins';
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: map-get($colors, mback );
+  padding: 5%;
+  height: 100vh;
+  width: 100vw;
+
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: map-get($colors, cback );
+    margin: 20px;
+    color: white;
+    
+
+    .text-sect{
+      font-family: map-get($fonts , lex);
+      font-size: 20px;
+      text-aling: center;
+      display: flex;
+      // grid-template-columns: 3, 1fr;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+      // font-size: 45px;
+      // padding: 0 25px;
+      margin: 0 20px;
+      border: 1px solid red;
+
+      h1{
+        color: map-get($colors, mhead );
+        // font-size: 45px;
+        // // padding: 0 25px;
+        // margin: 0 20px;
+
+        span{
+          color: map-get($colors , acc );
+        }
+      }
+      
+
+      p{
+        color: map-get($colors, parag );
+      }
+
+      .things{
+        border: 1px solid red;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        padding: 12px;
+
+        p{
+          font-family: map-get($fonts , lex);
+          color: map-get($colors, mhead );
+          margin: 15px;
+          border: 1px solid yellow;
+
+          span{
+            font-family: map-get($fonts , int);
+
+            color: map-get($colors, parag );
+          }
+        }
+      }
+    }
+
+    // .img-sect{
+    //   img{
+    //     color: map-get($colors, acc );
+    //   }
+    // }
+  }
+}
